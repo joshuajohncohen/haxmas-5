@@ -30,3 +30,5 @@ form.addEventListener("submit", async (event) => {
   form.reset();
   await loadGifts();
 });
+
+await loadGifts();
