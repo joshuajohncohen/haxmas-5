@@ -1,0 +1,40 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        --text: oklch(10.9% 0.052 319.89);
+        --background: oklch(98.96% 0.008 319.45);
+        --primary: oklch(57.22% 0.29 307.66);
+        --secondary: oklch(74.18% 0.186 346.4);
+        --accent: oklch(67.91% 0.216 0.21);
+    }
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text: oklch(96.8% 0.023 317.14);
+        --background: oklch(23.68% 0.054 291.17);
+        --primary: oklch(57.22% 0.29 307.66);
+        --secondary: oklch(41.84% 0.17 353.89);
+        --accent: oklch(49.23% 0.195 8.75);
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    min-width: 100%;
+    background-color: var(--background);
+}
+
+html {
+    background-color: var(--background);
+}
+
+.content {
+    text-align: center;
+    color: var(--text);
+    font-family: "FOT-Yuruka STD", Arial, sans-serif;
+}
+
+#haxmas-logo {
+    height: 20rem;
+}
