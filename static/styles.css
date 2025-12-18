@@ -29,6 +29,11 @@ html {
     background-color: var(--background);
 }
 
+@font-face {
+    font-family: "FOT-Yuruka STD";
+    src: url("./fot-yuruka-std.ttf");
+}
+
 .content {
     text-align: center;
     color: var(--text);
